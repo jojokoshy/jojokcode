@@ -22,6 +22,7 @@
     },
     "dnsNameforLBIP": {
       "type": "string",
+      "defaultValue": "myDNSLBIP",
       "metadata": {
         "description": "DNS for Load Balancer IP"
       }
