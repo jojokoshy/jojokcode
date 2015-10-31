@@ -257,15 +257,15 @@
             }
           },
           {
-            "name": "Block_FE",
+            "name": "Allow_FE",
             "properties": {
-              "description": "Block FE Subnet",
+              "description": "Allow FE Subnet",
               "protocol": "*",
               "sourcePortRange": "*",
               "destinationPortRange": "*",
               "sourceAddressPrefix": "10.0.0.0/24",
               "destinationAddressPrefix": "*",
-              "access": "Deny",
+              "access": "Allow",
               "priority": 101,
               "direction": "Inbound"
             }
